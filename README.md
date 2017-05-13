@@ -21,7 +21,7 @@ raw csv:
 ### INSTRUCTIONS:
 1) make sure required modules are installed:
     --> 'pip install -r requirements.txt'
-2) copy this file into your local python packages folder (Python 2).
+2) copy the SurveyManipulator.py file into your local python packages folder (Python 2).
     --> if path unknown: 'python -m site --user-site' 
 3) review/edit set variables.
 4) see test.py for example for how to use this module to create new csv and dataframe.
