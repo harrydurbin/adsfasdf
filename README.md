@@ -6,12 +6,10 @@ Junior Data Engineer
 May 12, 2017  
 
 ### DESCRIPTION:
-The purpose of this code is to feed this python module a filename that points to original CSV and print new CSV in the same path
-as original CSV. The code manipulates data to provide basic information about each survey adding the following columns to the
-raw csv:
-+ Survey length [minutes]
-+ Survey amount 10% of shortest surveys [true/false]
-+ Farmer's performance on "No Banned Pesticides" criterion ["NA", "F", "P"]
+The purpose of this code is to feed this python module a filename that points to original CSV and print a new CSV in the same path. The raw survey data is manipulated to provide basic information about each survey adding the following three columns:
++ Survey length [minutes] # 'durationminutes'
++ Survey amount 10% of shortest surveys [true/false] # 'shortduration'
++ Farmer's performance on "No Banned Pesticides" criterion ["NA", "F", "P"] # 'bannedpesticidecompliance'
     - Farmer uses no chemicals ["NA" for not applicable]
     - Farmer uses banned chemicals (herbicides, fertilizers, insecticides) ["F" for fail]
         --> banned chemicals are: ['endosulfan', 'gramaxon', 'paraquat', 'preglone', 'parathion', 'terbufos', 'thiodan', 'vidate']
