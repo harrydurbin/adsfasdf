@@ -1,12 +1,9 @@
 
 ### CREATION INFO:
-Harry Durbin
-
-Enveritas Coding Test
-
-Junior Data Engineer
-
-May 12, 2017
+Harry Durbin   
+Enveritas Coding Test  
+Junior Data Engineer  
+May 12, 2017  
 
 ### DESCRIPTION:
 The purpose of this code is to feed this python module a filename that points to original CSV and print new CSV in the same path
