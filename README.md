@@ -1,11 +1,11 @@
 
-CREATION INFO:
+# CREATION INFO:
 Harry Durbin
 Enveritas Coding Test
 Junior Data Engineer
 May 12, 2017
 
-DESCRIPTION:
+# DESCRIPTION:
 The purpose of this code is to feed this python module a filename that points to original CSV and print new CSV in the same path
 as original CSV. The code manipulates data to provide basic information about each survey adding the following columns to the
 raw csv:
@@ -18,7 +18,7 @@ raw csv:
         --> fuzzywuzzy is used to correct spelling of chemicals listed by hand in the 'other_' columns
     - Farmer uses chemicals but doesn't use banned chemicals ["P" for pass]
 
-INSTRUCTIONS:
+# INSTRUCTIONS:
 1) pip install -r requirements.txt to install required modules
 2) copy this file into your local python packages folder (Python 2)
     --> typ: 'python -m site --user-site' if path unknown
