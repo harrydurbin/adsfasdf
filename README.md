@@ -1,8 +1,8 @@
 
 ## CREATION INFO:
-Harry Durbin
-Enveritas Coding Test
-Junior Data Engineer
+Harry Durbin <br\>
+Enveritas Coding Test <br\>
+Junior Data Engineer <br\>
 May 12, 2017
 
 ## DESCRIPTION:
