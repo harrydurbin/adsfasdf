@@ -1,0 +1,22 @@
+Enveritas collects survey data from thousands of coffee farmers in countries around the world. Our surveyors visit farmers in person and ask them survey questions. Later, our NYC tech team analyzes farmers' responses to see whether or not their farms conform to our sustainability criteria. One of our criteria for sustainable coffee farming is that the farmer does not use banned, cancer-causing chemicals in their farming operation.
+
+One part of the Junior Data Engineer's role will be to write code that analyzes our survey data according to pre-determined logic. In this challenge, you will do a part of a real task that you would do in this role. The task requires manipulating data to provide basic information about each survey, including checking if farmers conform to our "No Banned Pesticides" criterion.
+
+Please do the following using Python. Using Pandas is recommended but not required.
+
+As part of this challenge, you received a CSV with survey response data. Add a column to the CSV that contains the following pieces of information for each farmer:
+
+1. The survey length in minutes (the data includes started_time and ended_time).
+2. A boolean (True/False) that represents whether or not the survey is among the 10% of shortest surveys in the dataset.
+3. A code that represents the farmer's performance on the "No Banned Pesticides" criterion, using the following logic:
+ - If the farmer uses no chemicals at all, they receive a "NA" for Not Applicable.
+ - If the farmer uses any banned chemicals (herbicides, fertilizers, insecticides) on this list, they receive the code "F", for Fail: ['endosulfan', 'gramaxon', 'paraquat', 'preglone', 'parathion', 'terbufos', 'thiodan', 'vidate']
+ - If the farmer uses chemicals but doesn't use any banned chemicals, they receive a "P" for Pass.
+
+Please write your code as a Python module that we can import into a script. We should be able to feed the imported module a filename that points to the original CSV and have it print a new (renamed) CSV into the same path as the original file.
+
+Please submit your code, along with the new, expanded (that is, wider) CSV that it generates, within 3 days of receiving this challenge. Please also include instructions for running your code.
+
+Things to consider:
+1. There is a small sample of data attached. In reality, you might apply your solution to many thousands of surveys, and will not have time to examine all of them manually.
+2. The columns that begin with "other_" have data that has been entered manually by the surveyor (the person that we employ, who goes to farms and asks farmers the survey questions). The responses in these columns contain spelling mistakes. To incorporate this data, you may want to apply fuzzy string matching. If you choose to do so, please don't implement the algorithm from scratch-- use something like FuzzyWuzzy.
