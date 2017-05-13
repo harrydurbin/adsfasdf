@@ -1,65 +1,65 @@
 ,farmer_id,started_time,ended_time,uses_chemicals,herbicides,other_herbicides,fertilizers,other_fertilizers,insecticides,other_insecticides,durationminutes,durationquantile,nobannedpesticides
-0,4562,2017-03-17 13:03:00,2017-03-17 13:31:00,1,paraquat,,,,malathion terbufos,,28.0,False,F
-1,5474,2017-03-01 09:04:00,2017-03-01 09:48:00,1,other,paracuat,npk,,malathion,,44.0,False,F
-2,4574,2017-03-23 19:42:00,2017-03-23 21:15:00,1,glifosato preglone,,npk,,malathion vidate_l,,93.0,False,F
-3,4563,2017-03-24 07:46:00,2017-03-24 08:47:00,1,glifosato hedonal paraquat preglone,,npk,,malathion,,61.0,False,F
-4,4554,2017-03-30 07:08:00,2017-03-30 07:19:00,1,gramaxon,"rutao, gramoxon",urea zinc boron lime,,endosulfan malathion,,11.0,False,F
-5,3650,2017-03-18 03:45:00,2017-03-18 05:15:00,1,glifosato paraquat,,npk urea zinc boron compost,,other,,90.0,False,F
-6,4560,2017-03-19 08:54:00,2017-03-19 10:34:00,0,glifosato,,,,,,100.0,False,P
-7,5973,2017-03-30 19:13:00,2017-03-30 19:45:00,1,gramaxon paraquat,,npk,,malathion terbufos,,32.0,False,F
-8,4571,2017-03-27 02:37:00,2017-03-27 03:33:00,1,preglone,,npk urea,,malathion,piretroide+lambda cialotrina,56.0,False,F
-9,4551,2017-03-11 17:21:00,2017-03-11 17:31:00,1,glifosato,,npk urea zinc boron lime sulfate compost,,malathion vidate_l,,10.0,False,F
-10,4687,2017-03-20 08:01:00,2017-03-20 09:15:00,1,paraquat,,npk urea sulfate,,endosulfan,,74.0,False,F
-11,4566,2017-03-07 22:02:00,2017-03-07 22:23:00,1,gramaxon,,npk urea other,,malathion,,21.0,False,F
-12,4203,2017-03-05 23:25:00,2017-03-05 23:29:00,1,glifosato,,urea lime,,malathion,,4.0,True,P
-13,9821,2017-03-19 09:01:00,2017-03-19 10:05:00,1,gramaxon,"rutao, gramoxon",urea zinc boron lime,,endosulfan malathion,,64.0,False,F
-14,7341,2017-03-18 07:10:00,2017-03-18 07:18:00,0,,,,,,,8.0,True,NA
-15,1249,2017-03-11 23:30:00,2017-03-12 00:42:00,1,glifosato gramaxon,,npk lime,,malathion,,72.0,False,F
-16,7859,2017-03-29 05:24:00,2017-03-29 05:35:00,1,gramaxon,,npk urea other,"18-46-0,20-20-0,18-6-12",malathion,,11.0,False,F
-17,4568,2017-03-30 20:15:00,2017-03-30 20:17:00,1,glifosato,,npk sulfate,,endosulfan,,2.0,True,F
-18,4577,2017-03-24 17:23:00,2017-03-24 18:10:00,1,gramaxon paraquat,,npk urea sulfate,,,anaconda,47.0,False,F
-19,4572,2017-03-16 03:54:00,2017-03-16 03:58:00,0,,endosulfin,,,,,4.0,True,F
-20,4567,2017-03-04 14:16:00,2017-03-04 15:53:00,1,gramaxon paraquat,,npk urea,,malathion terbufos,,97.0,False,F
-21,9457,2017-03-24 19:11:00,2017-03-24 19:35:00,0,,,,,,,24.0,False,NA
-22,4550,2017-03-16 16:11:00,2017-03-16 17:24:00,1,glifosato,,npk,,malathion terbufos,,73.0,False,F
-23,4546,2017-03-20 10:57:00,2017-03-20 12:02:00,1,paraquat,crop_hygiene correct_nutrition hand_weeding,npk zinc boron,,malathion terbufos,,65.0,False,F
-24,4663,2017-03-16 10:26:00,2017-03-16 10:26:00,1,paraquat,,npk urea,,malathion terbufos,,0.0,True,F
-25,4861,2017-03-20 03:35:00,2017-03-20 04:18:00,0,,,,,,,43.0,False,NA
-26,4558,2017-03-13 04:49:00,2017-03-13 05:32:00,1,glifosato preglone,malation,lime magnesium compost,,,tambo,43.0,False,F
-27,2661,2017-03-11 19:52:00,2017-03-11 20:10:00,1,gramaxon paraquat,,npk,,malathion vidate_l,,18.0,False,F
-28,5176,2017-03-01 15:33:00,2017-03-01 16:09:00,1,gramaxon,,npk,,malathion terbufos,,36.0,False,F
-29,4547,2017-03-26 11:44:00,2017-03-26 13:20:00,1,glifosato gramaxon,,npk urea sulfate,,endosulfan,,96.0,False,F
-30,4559,2017-03-26 10:46:00,2017-03-26 11:28:00,1,gramaxon,endosulfan,urea lime,,malathion,,42.0,False,F
-31,4545,2017-03-01 22:08:00,2017-03-01 23:32:00,1,glifosato,,npk urea sulfate,,,anaconda,84.0,False,P
-32,4570,2017-03-04 14:19:00,2017-03-04 15:45:00,1,paraquat,,npk urea,,terbufos,endosulfin,86.0,False,F
-33,9625,2017-03-15 04:01:00,2017-03-15 04:38:00,1,glifosato,,npk sulfate,,endosulfan,,37.0,False,F
-34,4564,2017-03-20 01:11:00,2017-03-20 01:28:00,1,gramaxon paraquat,,,,endosulfan,,17.0,False,F
-35,4552,2017-03-09 21:16:00,2017-03-09 22:01:00,0,,,,,,,45.0,False,NA
-36,2591,2017-03-19 06:13:00,2017-03-19 07:44:00,1,glifosato gramaxon,,npk,,cipermethrin malathion thiodan,,91.0,False,F
-37,4565,2017-03-10 22:25:00,2017-03-10 22:52:00,1,glifosato,paracuat,,,malathion,,27.0,False,F
-38,4553,2017-03-08 14:52:00,2017-03-08 15:15:00,1,glifosato,caporal alto 10,npk urea zinc boron compost,,other,,23.0,False,P
-39,4555,2017-03-07 04:58:00,2017-03-07 05:55:00,1,other,,npk,,malathion,,57.0,False,P
-40,6046,2017-03-03 13:53:00,2017-03-03 14:56:00,1,preglone,endosulfin,,,malathion,,63.0,False,F
-41,4561,2017-03-10 03:54:00,2017-03-10 04:02:00,1,,,,,endosulfan,,8.0,True,F
-42,4548,2017-03-27 13:51:00,2017-03-27 14:02:00,1,glifosato,,npk lime,,malathion,,11.0,False,P
-43,6046,2017-03-22 12:18:00,2017-03-22 13:42:00,1,gramaxon paraquat,crop_hygiene correct_nutrition hand_weeding,,,endosulfan,,84.0,False,F
-44,4576,2017-03-22 03:47:00,2017-03-22 04:28:00,1,glifosato,endosulfen,npk zinc boron,,other,,41.0,False,F
-45,4730,2017-03-26 10:29:00,2017-03-26 11:11:00,1,glifosato hedonal paraquat preglone,,npk urea,,malathion,piretroide+lambda cialotrina,42.0,False,F
-46,4575,2017-03-07 13:43:00,2017-03-07 14:15:00,1,paraquat,,npk,,malathion terbufos,,32.0,False,F
-47,3664,2017-03-23 18:29:00,2017-03-23 20:06:00,1,glifosato,,npk urea,,terbufos,endosulfin,97.0,False,F
-48,7862,2017-03-21 10:36:00,2017-03-21 11:28:00,1,glifosato,,npk,,malathion terbufos,,52.0,False,F
-49,8875,2017-03-21 21:11:00,2017-03-21 22:00:00,0,,,,,,,49.0,False,NA
-50,4556,2017-03-03 00:52:00,2017-03-03 01:58:00,1,gramaxon,,npk,,malathion terbufos,,66.0,False,F
-51,5243,2017-03-31 04:40:00,2017-03-31 05:55:00,1,glifosato,endosulfen,npk zinc boron,,other,,75.0,False,F
-52,4549,2017-03-08 09:01:00,2017-03-08 09:07:00,1,glifosato gramaxon,,,,,,6.0,True,F
-53,2474,2017-03-28 06:38:00,2017-03-28 07:13:00,1,paraquat,endosulfan,npk,,malathion,,35.0,False,F
-54,1324,2017-03-23 19:23:00,2017-03-23 19:56:00,1,glifosato,,,,malathion,,33.0,False,P
-55,5425,2017-03-16 01:20:00,2017-03-16 02:00:00,1,paraquat,heat-saflufenacil,npk urea zinc boron lime sulfate compost,,malathion vidate_l,,40.0,False,F
-56,3402,2017-03-04 14:15:00,2017-03-04 14:35:00,1,glifosato preglone,malation,lime magnesium compost,,,tambo,20.0,False,F
-57,9874,2017-03-20 03:46:00,2017-03-20 04:31:00,1,glifosato preglone,paracuat,,,malathion terbufos,,45.0,False,F
-58,4557,2017-03-09 19:50:00,2017-03-09 20:48:00,0,,,,,,,58.0,False,NA
-59,4569,2017-03-27 14:30:00,2017-03-27 14:32:00,1,glifosato paraquat,paracuat,npk,,cipermethrin malathion thiodan,,2.0,True,F
-60,9425,2017-03-07 05:53:00,2017-03-07 06:42:00,1,glifosato paraquat other,caporal alto 10,,,endosulfan,,49.0,False,F
-61,4887,2017-03-06 22:33:00,2017-03-06 23:44:00,1,gramaxon,,,,,,71.0,False,F
-62,8781,2017-03-03 01:13:00,2017-03-03 02:43:00,1,glifosato,,npk zinc boron,,malathion terbufos,,90.0,False,F
-63,4573,2017-03-21 23:22:00,2017-03-22 00:30:00,1,glifosato paraquat other,heat-saflufenacil,,,malathion,,68.0,False,F
+0,4562,2017-03-17 13:03:00,2017-03-17 13:31:00,1,paraquat,nan,nan,nan,malathion terbufos,nan,28.0,False,F
+1,5474,2017-03-01 09:04:00,2017-03-01 09:48:00,1,other,paracuat,npk,nan,malathion,nan,44.0,False,F
+2,4574,2017-03-23 19:42:00,2017-03-23 21:15:00,1,glifosato preglone,nan,npk,nan,malathion vidate_l,nan,93.0,False,F
+3,4563,2017-03-24 07:46:00,2017-03-24 08:47:00,1,glifosato hedonal paraquat preglone,nan,npk,nan,malathion,nan,61.0,False,F
+4,4554,2017-03-30 07:08:00,2017-03-30 07:19:00,1,gramaxon,"rutao, gramoxon",urea zinc boron lime,nan,endosulfan malathion,nan,11.0,False,F
+5,3650,2017-03-18 03:45:00,2017-03-18 05:15:00,1,glifosato paraquat,nan,npk urea zinc boron compost,nan,other,nan,90.0,False,F
+6,4560,2017-03-19 08:54:00,2017-03-19 10:34:00,0,glifosato,nan,nan,nan,nan,nan,100.0,False,P
+7,5973,2017-03-30 19:13:00,2017-03-30 19:45:00,1,gramaxon paraquat,nan,npk,nan,malathion terbufos,nan,32.0,False,F
+8,4571,2017-03-27 02:37:00,2017-03-27 03:33:00,1,preglone,nan,npk urea,nan,malathion,piretroide+lambda cialotrina,56.0,False,F
+9,4551,2017-03-11 17:21:00,2017-03-11 17:31:00,1,glifosato,nan,npk urea zinc boron lime sulfate compost,nan,malathion vidate_l,nan,10.0,False,F
+10,4687,2017-03-20 08:01:00,2017-03-20 09:15:00,1,paraquat,nan,npk urea sulfate,nan,endosulfan,nan,74.0,False,F
+11,4566,2017-03-07 22:02:00,2017-03-07 22:23:00,1,gramaxon,nan,npk urea other,nan,malathion,nan,21.0,False,F
+12,4203,2017-03-05 23:25:00,2017-03-05 23:29:00,1,glifosato,nan,urea lime,nan,malathion,nan,4.0,True,P
+13,9821,2017-03-19 09:01:00,2017-03-19 10:05:00,1,gramaxon,"rutao, gramoxon",urea zinc boron lime,nan,endosulfan malathion,nan,64.0,False,F
+14,7341,2017-03-18 07:10:00,2017-03-18 07:18:00,0,nan,nan,nan,nan,nan,nan,8.0,True,NA
+15,1249,2017-03-11 23:30:00,2017-03-12 00:42:00,1,glifosato gramaxon,nan,npk lime,nan,malathion,nan,72.0,False,F
+16,7859,2017-03-29 05:24:00,2017-03-29 05:35:00,1,gramaxon,nan,npk urea other,"18-46-0,20-20-0,18-6-12",malathion,nan,11.0,False,F
+17,4568,2017-03-30 20:15:00,2017-03-30 20:17:00,1,glifosato,nan,npk sulfate,nan,endosulfan,nan,2.0,True,F
+18,4577,2017-03-24 17:23:00,2017-03-24 18:10:00,1,gramaxon paraquat,nan,npk urea sulfate,nan,nan,anaconda,47.0,False,F
+19,4572,2017-03-16 03:54:00,2017-03-16 03:58:00,0,nan,endosulfin,nan,nan,nan,nan,4.0,True,F
+20,4567,2017-03-04 14:16:00,2017-03-04 15:53:00,1,gramaxon paraquat,nan,npk urea,nan,malathion terbufos,nan,97.0,False,F
+21,9457,2017-03-24 19:11:00,2017-03-24 19:35:00,0,nan,nan,nan,nan,nan,nan,24.0,False,NA
+22,4550,2017-03-16 16:11:00,2017-03-16 17:24:00,1,glifosato,nan,npk,nan,malathion terbufos,nan,73.0,False,F
+23,4546,2017-03-20 10:57:00,2017-03-20 12:02:00,1,paraquat,crop_hygiene correct_nutrition hand_weeding,npk zinc boron,nan,malathion terbufos,nan,65.0,False,F
+24,4663,2017-03-16 10:26:00,2017-03-16 10:26:00,1,paraquat,nan,npk urea,nan,malathion terbufos,nan,0.0,True,F
+25,4861,2017-03-20 03:35:00,2017-03-20 04:18:00,0,nan,nan,nan,nan,nan,nan,43.0,False,NA
+26,4558,2017-03-13 04:49:00,2017-03-13 05:32:00,1,glifosato preglone,malation,lime magnesium compost,nan,nan,tambo,43.0,False,F
+27,2661,2017-03-11 19:52:00,2017-03-11 20:10:00,1,gramaxon paraquat,nan,npk,nan,malathion vidate_l,nan,18.0,False,F
+28,5176,2017-03-01 15:33:00,2017-03-01 16:09:00,1,gramaxon,nan,npk,nan,malathion terbufos,nan,36.0,False,F
+29,4547,2017-03-26 11:44:00,2017-03-26 13:20:00,1,glifosato gramaxon,nan,npk urea sulfate,nan,endosulfan,nan,96.0,False,F
+30,4559,2017-03-26 10:46:00,2017-03-26 11:28:00,1,gramaxon,endosulfan,urea lime,nan,malathion,nan,42.0,False,F
+31,4545,2017-03-01 22:08:00,2017-03-01 23:32:00,1,glifosato,nan,npk urea sulfate,nan,nan,anaconda,84.0,False,P
+32,4570,2017-03-04 14:19:00,2017-03-04 15:45:00,1,paraquat,nan,npk urea,nan,terbufos,endosulfin,86.0,False,F
+33,9625,2017-03-15 04:01:00,2017-03-15 04:38:00,1,glifosato,nan,npk sulfate,nan,endosulfan,nan,37.0,False,F
+34,4564,2017-03-20 01:11:00,2017-03-20 01:28:00,1,gramaxon paraquat,nan,nan,nan,endosulfan,nan,17.0,False,F
+35,4552,2017-03-09 21:16:00,2017-03-09 22:01:00,0,nan,nan,nan,nan,nan,nan,45.0,False,NA
+36,2591,2017-03-19 06:13:00,2017-03-19 07:44:00,1,glifosato gramaxon,nan,npk,nan,cipermethrin malathion thiodan,nan,91.0,False,F
+37,4565,2017-03-10 22:25:00,2017-03-10 22:52:00,1,glifosato,paracuat,nan,nan,malathion,nan,27.0,False,F
+38,4553,2017-03-08 14:52:00,2017-03-08 15:15:00,1,glifosato,caporal alto 10,npk urea zinc boron compost,nan,other,nan,23.0,False,P
+39,4555,2017-03-07 04:58:00,2017-03-07 05:55:00,1,other,nan,npk,nan,malathion,nan,57.0,False,P
+40,6046,2017-03-03 13:53:00,2017-03-03 14:56:00,1,preglone,endosulfin,nan,nan,malathion,nan,63.0,False,F
+41,4561,2017-03-10 03:54:00,2017-03-10 04:02:00,1,nan,nan,nan,nan,endosulfan,nan,8.0,True,F
+42,4548,2017-03-27 13:51:00,2017-03-27 14:02:00,1,glifosato,nan,npk lime,nan,malathion,nan,11.0,False,P
+43,6046,2017-03-22 12:18:00,2017-03-22 13:42:00,1,gramaxon paraquat,crop_hygiene correct_nutrition hand_weeding,nan,nan,endosulfan,nan,84.0,False,F
+44,4576,2017-03-22 03:47:00,2017-03-22 04:28:00,1,glifosato,endosulfen,npk zinc boron,nan,other,nan,41.0,False,F
+45,4730,2017-03-26 10:29:00,2017-03-26 11:11:00,1,glifosato hedonal paraquat preglone,nan,npk urea,nan,malathion,piretroide+lambda cialotrina,42.0,False,F
+46,4575,2017-03-07 13:43:00,2017-03-07 14:15:00,1,paraquat,nan,npk,nan,malathion terbufos,nan,32.0,False,F
+47,3664,2017-03-23 18:29:00,2017-03-23 20:06:00,1,glifosato,nan,npk urea,nan,terbufos,endosulfin,97.0,False,F
+48,7862,2017-03-21 10:36:00,2017-03-21 11:28:00,1,glifosato,nan,npk,nan,malathion terbufos,nan,52.0,False,F
+49,8875,2017-03-21 21:11:00,2017-03-21 22:00:00,0,nan,nan,nan,nan,nan,nan,49.0,False,NA
+50,4556,2017-03-03 00:52:00,2017-03-03 01:58:00,1,gramaxon,nan,npk,nan,malathion terbufos,nan,66.0,False,F
+51,5243,2017-03-31 04:40:00,2017-03-31 05:55:00,1,glifosato,endosulfen,npk zinc boron,nan,other,nan,75.0,False,F
+52,4549,2017-03-08 09:01:00,2017-03-08 09:07:00,1,glifosato gramaxon,nan,nan,nan,nan,nan,6.0,True,F
+53,2474,2017-03-28 06:38:00,2017-03-28 07:13:00,1,paraquat,endosulfan,npk,nan,malathion,nan,35.0,False,F
+54,1324,2017-03-23 19:23:00,2017-03-23 19:56:00,1,glifosato,nan,nan,nan,malathion,nan,33.0,False,P
+55,5425,2017-03-16 01:20:00,2017-03-16 02:00:00,1,paraquat,heat-saflufenacil,npk urea zinc boron lime sulfate compost,nan,malathion vidate_l,nan,40.0,False,F
+56,3402,2017-03-04 14:15:00,2017-03-04 14:35:00,1,glifosato preglone,malation,lime magnesium compost,nan,nan,tambo,20.0,False,F
+57,9874,2017-03-20 03:46:00,2017-03-20 04:31:00,1,glifosato preglone,paracuat,nan,nan,malathion terbufos,nan,45.0,False,F
+58,4557,2017-03-09 19:50:00,2017-03-09 20:48:00,0,nan,nan,nan,nan,nan,nan,58.0,False,NA
+59,4569,2017-03-27 14:30:00,2017-03-27 14:32:00,1,glifosato paraquat,paracuat,npk,nan,cipermethrin malathion thiodan,nan,2.0,True,F
+60,9425,2017-03-07 05:53:00,2017-03-07 06:42:00,1,glifosato paraquat other,caporal alto 10,nan,nan,endosulfan,nan,49.0,False,F
+61,4887,2017-03-06 22:33:00,2017-03-06 23:44:00,1,gramaxon,nan,nan,nan,nan,nan,71.0,False,F
+62,8781,2017-03-03 01:13:00,2017-03-03 02:43:00,1,glifosato,nan,npk zinc boron,nan,malathion terbufos,nan,90.0,False,F
+63,4573,2017-03-21 23:22:00,2017-03-22 00:30:00,1,glifosato paraquat other,heat-saflufenacil,nan,nan,malathion,nan,68.0,False,F

@@ -1,5 +1,4 @@
 import pandas as pd # panda dataframes
-import math # math functions
 from fuzzywuzzy import process # fuzzy string matching
 import re # real expressions
 import os
@@ -48,8 +47,7 @@ class SurveyManipulator(object):
         # split chemical names apart bzsed on various deliminators
         split_chemical_list = []
         for chem in chemical_list:
-            if chem != 'none':
-                split_chemical_list.append(re.findall(r"[\w']+", chem))
+            split_chemical_list.append(re.findall(r"[\w']+", chem))
         return split_chemical_list
 
     def flatten_list(self, l):
@@ -70,7 +68,7 @@ class SurveyManipulator(object):
     def check_banned(self, chem_list):
         # check each chemical to see if it is banned
         compliance = ''
-        if chem_list:
+        if chem_list!=['nan']:
             for chem in chem_list:
                 if chem in self.BANNED_PESTICIDES:
                     compliance = 'F'
