@@ -26,13 +26,12 @@ class SurveyManipulator(object):
 
     def get_filepath(self):
         self.fpath, self.fn = os.path.split(self.path)
+        print '=============================================================================='
+        print 'Loading csv data...'
         return self.fpath , self.fn
 
     def load_data(self):
         df = pd.read_csv(self.fpath+'/'+self.fn)
-        df[self.CHEM_COLUMNS] = df[self.CHEM_COLUMNS].astype(str)
-        print '=============================================================================='
-        print 'Loading csv data...'
         return df
 
     def get_unique_chemicals(self, chemical_list):
@@ -97,14 +96,14 @@ class SurveyManipulator(object):
 
     def add_banned_pesticide_compliance_column(self):
         #  add column for 'no banned pesticides' criterion
-        df = self.df
+        df = self.load_data()
+        df[self.CHEM_COLUMNS] = df[self.CHEM_COLUMNS].astype(str)
         df['chem_list'] = df[self.CHEM_COLUMNS].values.tolist()
         df['chem_list'] = df['chem_list'].apply(lambda x: self.get_unique_chemicals(x))
         df['chem_list'] = df['chem_list'].apply(lambda x: self.split_handwritten_chemicals(x))
         df['chem_list'] = df['chem_list'].apply(lambda x: self.flatten_list(x))
         df['chem_list'] = df['chem_list'].apply(lambda x: self.correct_spelling(x))
         self.df['nobannedpesticides']=df['chem_list'].apply(lambda x: self.check_banned(x))
-        self.df.drop(['chem_list'],axis=1,inplace=True)
         print 'Adding a column to indicate if farmer complies with "No Banned Pesticides"...'
         return
 
