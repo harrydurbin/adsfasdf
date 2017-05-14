@@ -4,4 +4,4 @@ import surveymanipulator
 sm = surveymanipulator.SurveyManipulator('data/data_sample.csv')
 
 # dataframe of manipulated data
-df = sm.df
+df_new = sm.df
