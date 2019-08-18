@@ -1,9 +1,4 @@
 
-### CREATION INFO:
-Harry Durbin   
-May 12, 2017  
-
-### DESCRIPTION:
 The purpose of this code is to feed this python module a filename that points to original CSV and print a new CSV in the same path. Raw survey data is manipulated to provide basic information about each survey adding the following three columns:
 + Survey length [minutes] (column name = 'durationminutes')
 + Survey amount 10% of shortest surveys [true/false] (column name = 'shortduration')
